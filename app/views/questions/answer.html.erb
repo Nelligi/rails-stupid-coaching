@@ -1,0 +1,20 @@
+<div class = "container">
+    <h1>Stupid Coaching</h1>
+  <div class = "shadow m-4 border-start border-5 alert blockquote">
+    <h2><%= @question %></h2>
+    <p>-you</p>
+  </div>
+  <div class="shadow m-4 border-start border-5 alert blockquote">
+    <h2 ><%= @answer %></h2>
+    <p>-your Stupid Coach</p>
+  </div>
+  <figure class="text-start m-4">
+    <blockquote class= "blockquote">
+      <p><%= @question %></p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      <cite title="Source Title">-your Stupid Coach</cite>
+    </figcaption>
+  </figure>
+    <%=link_to "Ask another question", ask_path %>
+</div>
